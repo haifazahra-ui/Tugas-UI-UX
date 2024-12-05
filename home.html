@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our black and white themed website, offering services that inspire excellence.">
     <title>Home | Black and White Theme</title>
     <link rel="stylesheet" href="style-home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <div class="container">
             <h1>My Website</h1>
-            <nav>
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <h2>Welcome to Our Website</h2>
@@ -29,37 +34,45 @@
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            <p>Rent, Buy and Sell camera services in Bandung city.</p>
         </div>
     </section>
 
+    <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
-            <div class="service-item">
-                <h3>Service One</h3>
-                <p>Details about service one.</p>
-            </div>
-            <div class="service-item">
-                <h3>Service Two</h3>
-                <p>Details about service two.</p>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Rental Camera</h3>
+                </div>
+                <div class="service-item">
+                    <h3>Jasa Photographer</h3>
+                </div>
+                <div class="service-item">
+                    <h3>Jual Beli Camera</h3>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>For inquiries, please email us at <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>For inquiries, please DM us at <a href=https://www.instagram.com/harley.motret/>@harley.motret</a>.</p>
         </div>
     </section>
 
+    <!-- Footer Section -->
     <footer>
         <div class="container">
             <p>&copy; 2024 My Website. All rights reserved.</p>
+            <p><a href="#home">Back to top</a></p>
         </div>
     </footer>
 </body>
